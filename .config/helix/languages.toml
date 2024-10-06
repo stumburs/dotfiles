@@ -1,0 +1,9 @@
+[[language]]
+name = "cpp"
+indent = { tab-width = 4, unit = "   " }
+auto-format = true
+formatter = { command = "clang-format", args = ["--style={BreakBeforeBraces: Allman, IndentWidth: 4}"] }
+
+#[language.formatter]
+#command = "clang-format"
+#args = ["-style=\"{BreakBeforeBraces: Allman, IndentWidth: 4}\""]
